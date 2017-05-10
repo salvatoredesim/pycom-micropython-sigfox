@@ -42,7 +42,7 @@ typedef struct _boot_info_t
   uint32_t  crc;
 } boot_info_t;
 
-#define IMG_SIZE                        (1024 * 1024)
+#define IMG_SIZE                        (1536 * 1024)
 #define IMG_FACTORY_OFFSET              (64 * 1024)
 #define IMG_UPDATE1_OFFSET              (IMG_FACTORY_OFFSET + IMG_SIZE)
 #define IMG_UPDATE2_OFFSET              (IMG_FACTORY_OFFSET)
