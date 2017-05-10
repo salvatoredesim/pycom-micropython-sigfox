@@ -4,3 +4,4 @@ from machine import UART
 UART(1, 115200)
 UART(2, 115200)
 os.dupterm(UART(0, 115200))
+print("GEREMIA EDITION")
